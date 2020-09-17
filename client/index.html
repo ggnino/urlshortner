@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>URL Shortener</title>
+</head>
+
+<body>
+    <h1>URL Shortener Microservice</h1>
+    <div id='example'>
+        <h2>Short URL Creation</h2>
+        <p>YourURL: www.yourwebsite.com <br />Output: [projectUrl]/newShortenUrl<br /><a
+                href="/111">myProjectUrl/111</a>
+            will redirect
+            to www.google.com</p>
+    </div>
+    <div id='input'>
+        <label>URL to be shortened</label>
+        <input type="text" id="b">
+        <button id="x">Short it!</button>
+    </div>
+    <div id="output">
+        <h4>Output</h4>
+        <a id="d"></a>
+    </div>
+    <script type="text/javascript" src="./index.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</body>
+
+</html>
